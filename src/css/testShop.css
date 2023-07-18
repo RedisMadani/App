@@ -1,0 +1,45 @@
+.wrapper__test-shop {
+    height: 1000px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-flow: row wrap;
+}
+
+.wrapper__test-shop-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    width: 500px;
+    height: 400px;
+}
+
+.test-shop-item img {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.test-shop-item p {
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+.test-shop-add-to-card-button {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: rgb(149, 179, 218);
+    border-radius: 5px;
+}
+
+.test-shop-add-to-card-button:hover {
+    background-color: rgb(109, 143, 189);
+}
+
+.test-shop-add-to-card-button:active {
+    background-color: rgb(85, 117, 163);
+}

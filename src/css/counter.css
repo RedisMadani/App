@@ -1,0 +1,12 @@
+.counter {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-section p {
+    text-align: center;
+    font-weight: bold;
+}
